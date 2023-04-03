@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: #702722; 
+    --cor02: #3B3517;
+    --cor03: #875522;
+    --cor04: #231F7D;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor03);
+}
+
+header > h1{
+    color: rgba(255, 255, 0, 0.952);
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.295);
+}
+header > p{
+    color:yellow;
+    font-size: 1.5em;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.164);
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(120deg,var(--cor01) 0%, var(--cor02) 100%);
+    background-color:  var(--cor03);
+    min-height: 150px;
+    text-align: center;
+    padding: 40px;
+    padding-top: 40px;
+}
+
+nav{
+    background-image: linear-gradient(120deg,var(--cor01) 0%, var(--cor02) 100%);
+    padding: 20px;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.199);
+}
+
+nav > a{
+    background-color: var(--cor03);
+    color: var(--cor01);
+    padding: 15px 15px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.8s ;
+}
+
+nav > a:hover{
+    background-color: var(--cor03);
+    color: rgba(39, 95, 39, 0.521);
+    
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.158);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+main h1{
+    color: var(--cor01);
+    font-weight: normal;
+    font-size: 2em;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.212);
+}
+
+main p{
+    margin: 5px 5px;
+    text-align: justify;
+}
+
+aside{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 1.5em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside > h1{
+    font-size: 3em;
+    padding-bottom: 1em;
+   
+
+}
+
+aside > p{
+    padding-bottom: 2em;
+}
+
+aside.imagem{
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.274);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+aside.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+aside#img01{
+    background-image: url(baseball-g139e4542e_1280_-_Editado-removebg-preview.png);
+    background-position: right center;
+}
